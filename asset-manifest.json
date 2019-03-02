@@ -1,14 +1,14 @@
 {
-  "main.css": "/ifelsoncode/static/css/main.1aea2500.chunk.css",
-  "main.js": "/ifelsoncode/static/js/main.af6b3e6c.chunk.js",
-  "main.js.map": "/ifelsoncode/static/js/main.af6b3e6c.chunk.js.map",
+  "main.css": "/ifelsoncode/static/css/main.123ff181.chunk.css",
+  "main.js": "/ifelsoncode/static/js/main.79f8329f.chunk.js",
+  "main.js.map": "/ifelsoncode/static/js/main.79f8329f.chunk.js.map",
   "runtime~main.js": "/ifelsoncode/static/js/runtime~main.0da58156.js",
   "runtime~main.js.map": "/ifelsoncode/static/js/runtime~main.0da58156.js.map",
-  "static/js/2.5bf9b2cd.chunk.js": "/ifelsoncode/static/js/2.5bf9b2cd.chunk.js",
-  "static/js/2.5bf9b2cd.chunk.js.map": "/ifelsoncode/static/js/2.5bf9b2cd.chunk.js.map",
+  "static/js/2.c88c70e5.chunk.js": "/ifelsoncode/static/js/2.c88c70e5.chunk.js",
+  "static/js/2.c88c70e5.chunk.js.map": "/ifelsoncode/static/js/2.c88c70e5.chunk.js.map",
   "index.html": "/ifelsoncode/index.html",
-  "precache-manifest.eed0e01133d3960a1c9e917ac6fb7cc3.js": "/ifelsoncode/precache-manifest.eed0e01133d3960a1c9e917ac6fb7cc3.js",
+  "precache-manifest.f0719e19abdaf806fd82fe946a1b9bf1.js": "/ifelsoncode/precache-manifest.f0719e19abdaf806fd82fe946a1b9bf1.js",
   "service-worker.js": "/ifelsoncode/service-worker.js",
-  "static/css/main.1aea2500.chunk.css.map": "/ifelsoncode/static/css/main.1aea2500.chunk.css.map",
+  "static/css/main.123ff181.chunk.css.map": "/ifelsoncode/static/css/main.123ff181.chunk.css.map",
   "static/media/logo.svg": "/ifelsoncode/static/media/logo.5d5d9eef.svg"
 }
