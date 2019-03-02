@@ -6,17 +6,20 @@
   "dependencies": {
     "@material-ui/core": "^3.9.2",
     "gh-pages": "^2.0.1",
+    "jest": "^23.6.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5"
+    "react-scripts": "2.1.5",
+    "react-testing-library": "^6.0.0"
   },
   "scripts": {
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "qdp": "npm run predeploy && npm run deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
