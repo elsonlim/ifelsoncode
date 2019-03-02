@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/ifelsoncode/static/js/2.c88c70e5.chunk.js"
   },
   {
-    "revision": "c8d919abc2855a176878703a223897b0",
+    "revision": "42c5bf3a5c08f3d79f9335766e0bfa30",
     "url": "/ifelsoncode/index.html"
   }
 ];
