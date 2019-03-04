@@ -2,7 +2,6 @@
   "name": "ifelsoncode",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://elsonlim.github.io/ifelsoncode",
   "dependencies": {
     "@material-ui/core": "^3.9.2",
     "gh-pages": "^2.0.1",
@@ -13,13 +12,10 @@
     "react-testing-library": "^6.0.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "qdp": "npm run predeploy && npm run deploy"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
