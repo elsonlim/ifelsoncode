@@ -16,23 +16,23 @@ export default () => (
 
 const styles = {
   container: {
-    top: '-20px',
+    top: '-1.2em',
     position: 'relative',
     zIndex: 1100,
     float: 'right', 
-    marginRight: '20px',
+    marginRight: '1.2em',
   },
   card: {
     display: 'flex',
     justifyContent: "center",
     alignItems: "center",
-    height: '220px',
-    width: '220px',
+    height: '15em',
+    width: '15em',
     backgroundColor: '#FAFAFA',
   },
   profile: {
-    height: '200px',
-    width: '200px',
+    height: '14em',
+    width: '14em',
     border: '1px solid #d7d7d7',
     borderRadius: 6,
   }
