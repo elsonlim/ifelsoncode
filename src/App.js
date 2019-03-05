@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import IfElsonCode from './Components/IfElsonCode';
+import ElsonBlog from './Components/ElsonBlog';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <IfElsonCode />
+        <ElsonBlog />
       </div>
     );
   }

@@ -1,28 +1,24 @@
 
 import React from 'react'
-import { AppBar, Toolbar, Typography } from '@material-ui/core';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
-import { blue, indigo, purple } from '@material-ui/core/colors';
+import {blueGrey} from '@material-ui/core/colors';
+import Header from './Header';
+import AboutMe from './AboutMe';
 
-const IfElsonCode = () => {
-    return (
-      <MuiThemeProvider theme={theme}>
-            <AppBar position="sticky">
-              <Toolbar>
-                  <Typography variant="h5" color="inherit" className={styles.grow}>
-                      Blog - Elson
-                  </Typography>
-              </Toolbar>
-            </AppBar>
-      </MuiThemeProvider>
-    );
+const ElsonBlog = () => {
+  return (
+    <MuiThemeProvider theme={theme}>
+      <Header />  
+      <AboutMe />
+    </MuiThemeProvider>
+  );
 }
 
-export default IfElsonCode;
+export default ElsonBlog;
 
 const theme = createMuiTheme({
   palette: {
-    primary: blue,
+    primary: blueGrey,
   },
   overrides: {
     // Name of the component ⚛️ / style sheet
