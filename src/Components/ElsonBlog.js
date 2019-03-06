@@ -1,15 +1,25 @@
-
 import React from 'react'
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import {blueGrey} from '@material-ui/core/colors';
 import Header from './Header';
 import AboutMe from './AboutMe';
+import {Grid} from '@material-ui/core';
 
 const ElsonBlog = () => {
   return (
     <MuiThemeProvider theme={theme}>
-      <Header />  
-      <AboutMe />
+      <Header />
+      <div style={{display: "flex", justifyContent: "center"}}>
+        <div style={{
+          justifySelf: "center",
+          maxWidth: '1024px',
+          width: "100%",
+        }}>
+          <Grid container direction="row-reverse">
+            <Grid item xs={3}><AboutMe /></Grid>
+          </Grid>
+        </div>
+      </div>
     </MuiThemeProvider>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, CardMedia } from "@material-ui/core";
-import {blueGrey} from '@material-ui/core/colors';
+import {amber, blueGrey} from '@material-ui/core/colors';
 
 export default () => (
   <div style={styles.container}>
@@ -10,30 +10,47 @@ export default () => (
         image="elsonDp.jpg"
         title="This is how I look like"
       />
+      <p style={styles.contentText}>
+        Hello, I'm Elson and this is my blog.
+        I'm a web developer at Thoughtworks.
+        As you can see is still under a WIP (:
+      </p> 
     </Card>
   </div>    
 );
 
 const styles = {
   container: {
-    top: '-1.2em',
+    marginTop: '1.2em',
     position: 'relative',
     zIndex: 1100,
     float: 'right', 
     marginRight: '1.2em',
+    display: 'flex',
+    flexDirection: "row",
   },
   card: {
     display: 'flex',
+    flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
-    height: '15em',
-    width: '15em',
-    backgroundColor: '#FAFAFA',
+    padding: '0.5em',
+    backgroundColor: amber[50],
+    border: '1px solid',
+    borderColor: amber[100],
   },
   profile: {
-    height: '14em',
-    width: '14em',
-    border: '1px solid #d7d7d7',
-    borderRadius: 6,
+    width: '100%',
+    height: '10em',
+    border: '1px solid',
+    borderColor: amber[100],
+    borderRadius: 5,
+  },
+  contentText: {
+    margin: '1em',
+    textAlign: 'left',
+    fontSize: '0.9em',
+    fontWeight: 600,
+    color: blueGrey[800]
   }
 }

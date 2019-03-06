@@ -3,7 +3,7 @@ import { AppBar, Toolbar, Typography } from '@material-ui/core';
 
 export default () => (
   <AppBar position="sticky">
-    <Toolbar>
+    <Toolbar style={styles.container}>
         <Typography variant="h5" color="inherit" className={styles.grow}>
             Blog - Elson
         </Typography>
@@ -12,6 +12,11 @@ export default () => (
 );
 
 const styles = {
+  container: {
+    width: '1024px',
+    maxWidth: '1024px',
+    margin: 'auto',
+  },
   grow: {
     flexGrow: 1,
   }
