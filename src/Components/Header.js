@@ -4,7 +4,7 @@ import { AppBar, Toolbar, Typography } from '@material-ui/core';
 export default () => (
   <AppBar position="sticky">
     <Toolbar style={styles.container}>
-        <Typography variant="h5" color="inherit" className={styles.grow}>
+        <Typography variant="h5" color="inherit">
             Blog - Elson
         </Typography>
     </Toolbar>

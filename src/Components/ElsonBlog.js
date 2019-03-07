@@ -4,23 +4,29 @@ import {blueGrey} from '@material-ui/core/colors';
 import Header from './Header';
 import AboutMe from './AboutMe';
 import {Grid} from '@material-ui/core';
+import Footer from './Footer';
 
 const ElsonBlog = () => {
   return (
     <MuiThemeProvider theme={theme}>
-      <Header />
-      <div style={{display: "flex", justifyContent: "center"}}>
+        <Header />
         <div style={{
-          justifySelf: "center",
-          maxWidth: '1024px',
-          width: "100%",
-        }}>
-          <Grid container direction="row-reverse">
-            <Grid item xs={3}><AboutMe /></Grid>
-          </Grid>
+          display: "flex",
+          justifyContent: "center",
+          flex: 1
+          }}>
+          <div style={{
+            justifySelf: "center",
+            maxWidth: '1024px',
+            width: "100%",
+          }}>
+            <Grid container direction="row-reverse">
+              <Grid item xs={3}><AboutMe /></Grid>
+            </Grid>
+          </div>
         </div>
-      </div>
     </MuiThemeProvider>
+    
   );
 }
 
@@ -50,9 +56,6 @@ const theme = createMuiTheme({
 });
 
 const styles = {
-  root: {
-    flexGrow: 1,
-  },
   grow: {
     flexGrow: 1,
   },
