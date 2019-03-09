@@ -25,7 +25,6 @@ const styles = {
     position: 'relative',
     zIndex: 1100,
     float: 'right', 
-    marginRight: '1.2em',
     display: 'flex',
     flexDirection: "row",
   },

@@ -19,9 +19,10 @@ const ElsonBlog = () => {
             justifySelf: "center",
             maxWidth: '1024px',
             width: "100%",
+            padding: '1.2em'
           }}>
-            <Grid container direction="row-reverse">
-              <Grid item xs={3}><AboutMe /></Grid>
+            <Grid container spacing={10} direction="row-reverse">
+              <Grid item sm={3} xs={12}><AboutMe /></Grid>
             </Grid>
           </div>
         </div>
