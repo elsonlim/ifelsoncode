@@ -16,6 +16,7 @@ deploy:
   provider: firebase
   token:
     secure: "${login}"
+  project: ifelsoncode
   skip_cleanup: true
 after_deploy:
 - echo deployed
