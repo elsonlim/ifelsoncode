@@ -1,24 +1,23 @@
 language: node_js
 node_js:
-  - "11.10.1"
+- 11.10.1
 dist: trusty
-cache: 
+cache:
   directories:
-    - node_modules
-install: 
-  - npm install
-script: 
-  - npm run test
+  - node_modules
+install:
+- npm install
+script:
+- npm run test
 before_deploy:
-  - "echo building..."
-  - npm run build
+- echo building...
+- npm run build
 deploy:
   provider: firebase
   token:
     secure: "${login}"
   skip_cleanup: true
 after_deploy:
-  - "echo deployed"
+- echo deployed
 after_success:
-  - "echo done"
-
+- echo done
