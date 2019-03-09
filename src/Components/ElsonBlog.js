@@ -4,7 +4,6 @@ import {blueGrey} from '@material-ui/core/colors';
 import Header from './Header';
 import AboutMe from './AboutMe';
 import {Grid} from '@material-ui/core';
-import Footer from './Footer';
 
 const ElsonBlog = () => {
   return (
@@ -55,14 +54,3 @@ const theme = createMuiTheme({
   },
   typography: { useNextVariants: true },
 });
-
-const styles = {
-  grow: {
-    flexGrow: 1,
-  },
-  menuButton: {
-    marginLeft: -12,
-    marginRight: 20,
-  },
-};
-
