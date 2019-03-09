@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, CardMedia } from "@material-ui/core";
-import {amber, blueGrey} from '@material-ui/core/colors';
+import {blueGrey} from '@material-ui/core/colors';
 
 export default () => (
   <div style={styles.container}>
@@ -33,22 +33,20 @@ const styles = {
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
-    padding: '0.5em',
-    backgroundColor: amber[50],
+    padding: '0.7em',
     border: '1px solid',
-    borderColor: amber[100],
+    borderColor: blueGrey[50],
   },
   profile: {
     width: '100%',
     height: '10em',
     border: '1px solid',
-    borderColor: amber[100],
+    borderColor: blueGrey[50],
     borderRadius: 5,
   },
   contentText: {
-    margin: '1em',
-    textAlign: 'left',
-    fontSize: '0.9em',
+    textAlign: 'justify',
+    fontsize: '0.9em',
     fontWeight: 600,
     color: blueGrey[800]
   }
