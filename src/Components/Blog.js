@@ -2,6 +2,7 @@ import React from 'react'
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import {blueGrey} from '@material-ui/core/colors';
 import Header from './Header';
+import Footer from './Footer';
 import AboutMe from './AboutMe';
 import {Grid} from '@material-ui/core';
 
@@ -20,13 +21,13 @@ const ElsonBlog = () => {
             width: "100%",
             padding: '1.2em'
           }}>
-            <Grid container spacing={10} direction="row-reverse">
+            <Grid container spacing={8} direction="row-reverse">
               <Grid item sm={3} xs={12}><AboutMe /></Grid>
             </Grid>
           </div>
         </div>
+        <Footer />
     </MuiThemeProvider>
-    
   );
 }
 

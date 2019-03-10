@@ -17,7 +17,4 @@ const styles = {
     maxWidth: '1024px',
     margin: 'auto',
   },
-  grow: {
-    flexGrow: 1,
-  }
 };

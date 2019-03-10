@@ -1,13 +1,6 @@
 import React from "react";
+import 'Content.css';
 
 export default () => (
-<div style={styles.container}>
-</div>
-)
-
-const styles = {
-  container: {
-    backgroundColor: '#e6f2ff',
-    flex: 1
-  }
-}
+  <div className={"content"}></div>
+);
