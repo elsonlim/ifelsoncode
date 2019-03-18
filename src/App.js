@@ -5,7 +5,7 @@ import Blog from './Components/Blog';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div data-testid={"App"} className="App">
         <Blog />
       </div>
     );
