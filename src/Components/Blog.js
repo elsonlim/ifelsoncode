@@ -5,10 +5,14 @@ import Header from './Header';
 import Footer from './Footer';
 import AboutMe from './AboutMe';
 import {Grid} from '@material-ui/core';
+import './Blog.css';
+import {connect} from 'react-redux';
 
-const ElsonBlog = () => {
+const ElsonBlog = ({isDarkMode}) => {
+  console.log("isDarkMode: " + isDarkMode);
   return (
-    <MuiThemeProvider theme={theme}>
+    <div className={['blog', isDarkMode ? 'dark': ''].join(' ')}>
+    <MuiThemeProvider theme={theme} >
         <Header />
         <div style={{
           display: "flex",
@@ -28,10 +32,15 @@ const ElsonBlog = () => {
         </div>
         <Footer />
     </MuiThemeProvider>
+    </div>
   );
 }
 
-export default ElsonBlog;
+const mapStateToProps = state => ({
+  isDarkMode: state.global.isDarkMode,
+});
+
+export default connect(mapStateToProps)(ElsonBlog);
 
 const theme = createMuiTheme({
   palette: {

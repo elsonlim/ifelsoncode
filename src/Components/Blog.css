@@ -1,0 +1,9 @@
+.blog {
+  --main-bg: #fff8e1;
+  background-color: var(--main-bg); 
+  height: 100vh
+}
+
+.dark {
+  --main-bg: #333;
+}

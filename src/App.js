@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
 import './App.css';
-import Blog from './Components/Blog';
+import Blog from './components/Blog';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import reducers from './reducers';
 
 class App extends Component {
   render() {
     return (
-      <div data-testid={"App"} className="App">
-        <Blog />
-      </div>
+      <Provider store={createStore(reducers)}>
+        <div data-testid={"App"} className="App">
+          <Blog />
+        </div>
+      </Provider>
     );
   }
 }

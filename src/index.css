@@ -1,5 +1,16 @@
 :root {
   box-sizing: border-box;
+  --footer: #37474F;
+
+  --light-background: #fff8e1;
+  --light-card-background: #fff8e1;
+  --light-card-border: #eceff1;
+  --light-text: #fff8e1;
+  
+  --dark-background: #333;
+  --dark-card-background: #37474F;
+  --dark-card-border: #eceff1;
+  --dark-text: #fff8e1;
 }
 
 *, ::before, ::after {

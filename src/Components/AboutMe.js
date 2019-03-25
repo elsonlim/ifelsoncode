@@ -1,10 +1,11 @@
 import React from "react";
 import { Card, CardMedia } from "@material-ui/core";
 import './AboutMe.css'
+import {connect} from 'react-redux';
 
-export default () => (
-  <div className={"about-me"}>
-    <Card className="card">
+export const AboutMe = ({isDarkMode}) => (
+  <div className={["about-me", isDarkMode ? 'dark' : ''].join(' ')} data-testid="AboutMe">
+    <Card className={'card'}>
       <CardMedia
         className={"profile"}
         image="elsonDp.jpg"
@@ -18,4 +19,10 @@ export default () => (
     </Card>
   </div>    
 );
+
+const mapStateToProps = (state) => ({
+  isDarkMode: state.global.isDarkMode,
+});
+
+export default connect(mapStateToProps)(AboutMe);
 
