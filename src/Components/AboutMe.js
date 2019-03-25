@@ -3,7 +3,7 @@ import { Card, CardMedia } from "@material-ui/core";
 import './AboutMe.css'
 import {connect} from 'react-redux';
 
-export const AboutMe = ({isDarkMode}) => (
+export const AboutMe = ({isDarkMode = false}) => (
   <div className={["about-me", isDarkMode ? 'dark' : ''].join(' ')} data-testid="AboutMe">
     <Card className={'card'}>
       <CardMedia

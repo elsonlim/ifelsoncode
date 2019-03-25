@@ -8,7 +8,7 @@ import {Grid} from '@material-ui/core';
 import './Blog.css';
 import {connect} from 'react-redux';
 
-const ElsonBlog = ({isDarkMode}) => {
+export const Blog = ({isDarkMode = false}) => {
   console.log("isDarkMode: " + isDarkMode);
   return (
     <div className={['blog', isDarkMode ? 'dark': ''].join(' ')}>
@@ -40,7 +40,7 @@ const mapStateToProps = state => ({
   isDarkMode: state.global.isDarkMode,
 });
 
-export default connect(mapStateToProps)(ElsonBlog);
+export default connect(mapStateToProps)(Blog);
 
 const theme = createMuiTheme({
   palette: {
