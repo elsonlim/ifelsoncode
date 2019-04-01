@@ -1,5 +1,5 @@
 import React from "react";
-import 'Content.css';
+import '../styles/Content.css';
 
 export default () => (
   <div className={"content"}></div>

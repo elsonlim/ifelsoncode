@@ -5,7 +5,7 @@ import Header from './Header';
 import Footer from './Footer';
 import AboutMe from './AboutMe';
 import {Grid} from '@material-ui/core';
-import './Blog.css';
+import '../styles/Blog.css';
 import {connect} from 'react-redux';
 
 export const Blog = ({isDarkMode = false}) => {

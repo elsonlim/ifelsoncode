@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, CardMedia } from "@material-ui/core";
-import './AboutMe.css'
+import '../styles/AboutMe.css'
 import {connect} from 'react-redux';
 
 export const AboutMe = ({isDarkMode = false}) => (

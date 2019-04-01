@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import './Footer.css';
+import '../styles/Footer.css';
 import Switch from '@material-ui/core/Switch';
 import * as Actions from '../actions';
 import { connect } from 'react-redux';

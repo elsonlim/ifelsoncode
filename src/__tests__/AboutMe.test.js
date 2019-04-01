@@ -1,6 +1,6 @@
 import React from 'react';
 import {render, fireEvent} from 'react-testing-library';
-import {AboutMe} from './AboutMe';
+import {AboutMe} from '../components/AboutMe';
 
 describe('AboutMe', () => {
   it('renders without crashing', () => {
