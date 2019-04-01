@@ -48,8 +48,8 @@
       "node"
     ],
     "watchPlugins": [
-      "/Users/elson/Desktop/ifelsoncode/ifelsoncode/node_modules/jest-watch-typeahead/filename.js",
-      "/Users/elson/Desktop/ifelsoncode/ifelsoncode/node_modules/jest-watch-typeahead/testname.js"
+      "./node_modules/jest-watch-typeahead/filename.js",
+      "./node_modules/jest-watch-typeahead/testname.js"
     ],
     "coverageThreshold": {
       "global": {
