@@ -8,7 +8,7 @@ cache:
 install:
 - npm install
 script:
-- echo "skip test"
+- npm run test
 before_deploy:
 - echo building...
 - npm run build
