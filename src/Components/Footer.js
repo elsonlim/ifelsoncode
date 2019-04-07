@@ -3,6 +3,7 @@ import '../styles/Footer.css';
 import Switch from '@material-ui/core/Switch';
 import * as Actions from '../actions';
 import { connect } from 'react-redux';
+import Login from "./Login";
 
 const footer = ({isDarkMode, updateDarkMode}) => {
   const [darkMode, setDarkMode] = useState(false);
@@ -14,12 +15,14 @@ const footer = ({isDarkMode, updateDarkMode}) => {
 
   return (
     <div className="footer">
+      
       <Switch
         checked={darkMode}
         onChange={() => toggleDarkMode(darkMode)}
         value="checkedB"
         color="primary"
       />
+      <Login />
     </div>
   );
 };
