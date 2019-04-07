@@ -1,0 +1,27 @@
+.button {
+  height: 3em;
+  padding: 0.1em 1em;
+  font-size: 0.8rem;
+  border: 1px solid black;
+  border-radius: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0.1em 0.2em rgba(0, 0, 0, 0.15);
+}
+
+.button--dark {
+  background-color: #48585F;
+  color: white;
+}
+
+.button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.button:active {
+  opacity: 0.5;
+  transform: translateY(0.1em);
+  box-shadow: 0 0.1em 0.1em rgba(220, 220, 220, 0.15);
+}
