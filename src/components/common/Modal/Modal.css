@@ -1,6 +1,8 @@
 .modal {
   z-index: 1000;
   visibility: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .modal-backdrop {
@@ -16,9 +18,6 @@
 .modal-body {
   position: fixed;
   top: 10em;
-  bottom: 10em;
-  left: 20%;
-  right: 20%;
   padding: 3em;
   background-color: white;
   overflow: auto;

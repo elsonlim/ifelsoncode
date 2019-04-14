@@ -1,7 +1,7 @@
 import React from 'react';
 import './Modal.css';
 
-const hideModal = (id) => {
+export const hideModal = (id) => {
   document.getElementById(id).style.visibility = 'hidden';
 }
 
